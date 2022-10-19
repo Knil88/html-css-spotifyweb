@@ -18,9 +18,15 @@ body{
 
 #wrapper{
     display: flex;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 70px);
     
    
+}
+#size{
+
+}
+.fix img{
+    width: 17px;
 }
 .btn a {
     text-decoration: none;
@@ -51,7 +57,10 @@ background-color:#000000;
 }
  
  
-ul a ,ul li{
+ul , #install{
+    font-size: 12px;
+}
+ul a ,ul li , #install{
     color: #6E6E6E;
 }
 li{
@@ -71,6 +80,10 @@ li:hover a{
     color: white;
     
 }
+li:hover , .option #install:hover{
+    cursor: pointer;
+    color: white;
+}
 li:hover img{
     filter: invert(0%);
 }
@@ -83,7 +96,15 @@ margin-left: 20px;
     
     
   }
+  #middle{
+    margin-bottom: 40px;
+  }
 
+  #install{
+    margin-left: 3px;
+  }
+
+  
   #plus {
     color: black;
     background-color: #a3a3a3;
@@ -95,8 +116,16 @@ margin-left: 20px;
     padding: 0px 6px;
       padding-bottom: 0px;
     padding-bottom: 2px;
+    cursor: pointer;
+  }
+  li #plus:hover{
+    background-color: white;
   }
 
+  .fix div{
+    display: flex;
+    margin: 0px 14px;
+  }
 #up-bar{
     padding: 18px 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -112,8 +141,6 @@ margin-left: 20px;
     flex-grow: 1;
     overflow-y: auto;
     height: 100%;
-    /* debug */
-
     background-color:#141922;
     
 }
@@ -128,7 +155,7 @@ margin-left: 20px;
 footer{
 
 background-color: #282828;
-height: 130px;
+height: 70px;
 
 width: 100%;
 
