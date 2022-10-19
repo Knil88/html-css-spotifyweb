@@ -12,18 +12,22 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.white{
+    color: white;
+}
+
 #wrapper{
     display: flex;
     height: calc(100vh - 130px);
     
    
 }
-button a {
+.btn a {
     text-decoration: none;
     color: white;
 }
 
-button{
+.btn{
 color: white;
 background-color: black;
 padding: 10px 22px;
@@ -47,7 +51,7 @@ background-color:#000000;
 }
  
  
-ul a{
+ul a ,ul li{
     color: #6E6E6E;
 }
 li{
@@ -78,6 +82,19 @@ margin-left: 20px;
     display: none;
     
     
+  }
+
+  #plus {
+    color: black;
+    background-color: #a3a3a3;
+    font-size: 30PX;
+    font-weight: bold;
+    border: none;
+    padding: 2px 7px;
+    text-align: center;
+    padding: 0px 6px;
+      padding-bottom: 0px;
+    padding-bottom: 2px;
   }
 
 #up-bar{
