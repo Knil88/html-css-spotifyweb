@@ -42,6 +42,8 @@ background-color:#000000;
 
 #logo-responsive{
     display: none;
+    width: 55%;
+    
 }
  
  
@@ -72,8 +74,10 @@ li:hover img{
 .option{
 margin-left: 20px;
 }
-  .option-responsive{
+  .option-responsive img{
     display: none;
+    
+    
   }
 
 #up-bar{
@@ -117,11 +121,14 @@ width: 100%;
 
 /* Responsive  smartphone*/
 
+/* Responsive barra laterale */
+
 @media all and (max-width:480px){
     #lateral-bar{
-        max-width: 200px;
+        width: 10%;
+        
     }
-    .option-responsive{
+    .option-responsive img{
         display: block;
     }
     .option{
@@ -132,5 +139,8 @@ width: 100%;
     }
     #logo{
         display: none;
+    }
+    #up-bar{
+        width: calc(100% - 50px);
     }
 }
