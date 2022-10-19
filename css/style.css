@@ -8,18 +8,32 @@
 
 #wrapper{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     
    
 }
+button a {
+    text-decoration: none;
+    color: white;
+}
 
+button{
+color: white;
+background-color: black;
+padding: 10px 22px;
+border-radius: 20px;
+font-weight: bold;
+}
 #lateral-bar{
 min-width: 200px;
-
-/* debug */
-
-background-color: red;
+background-color:#000000;
 }
+
+#logo{
+ width: 80%;
+ margin: 16px 10px;
+}
+
 #up-bar{
     padding: 18px 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -34,7 +48,27 @@ background-color: red;
 #main-part{
     flex-grow: 1;
     overflow-y: auto;
+    height: 100vh;
     /* debug */
 
-    background-color: blue;
+    background-color:#141922;
+    
 }
+
+
+
+
+
+
+
+/* Regole footer */
+footer{
+/* debug */
+background-color: #282828;
+height: 100%;
+position: fixed;
+z-index: 500;
+width: 100%;
+
+}
+
