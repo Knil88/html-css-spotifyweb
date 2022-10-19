@@ -19,9 +19,13 @@ body{
 #wrapper{
     display: flex;
     height: calc(100vh - 70px);
-    
-   
-}
+    overflow-y: auto;
+    }
+    section{
+        background-color: red; 
+        width: 400px;
+        height: 400px;
+    }
 #size{
 
 }
@@ -45,10 +49,10 @@ width: 200px;
 background-color:#000000;
 }
 
-#logo{
- width: 80%;
- margin: 16px 10px;
-}
+#logo {
+    width: 50%;
+    margin: 11px 21px;
+  }
 
 #logo-responsive{
     display: none;
@@ -125,7 +129,29 @@ margin-left: 20px;
   .fix div{
     display: flex;
     margin: 0px 14px;
+    border-bottom: ;
   }
+ .fix hr{
+border: 1px solid;
+color: white;
+margin: 10px 80px 10px 18px;
+  
+}
+.fix{
+
+}
+
+#utent {
+    width: 20px;
+    background-color: #6E6E6E;
+    padding: 0px -1px;
+    border-radius: 50%;
+  }
+  #yari {
+    align-self: center;
+    margin-left: 5px;
+  }
+
 #up-bar{
     padding: 18px 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -143,6 +169,7 @@ margin-left: 20px;
     height: 100%;
     background-color:#141922;
     
+    
 }
 
 
@@ -153,12 +180,91 @@ margin-left: 20px;
 
 /* Regole footer */
 footer{
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    padding: 20px;
+}
 
-background-color: #282828;
-height: 70px;
+footer{
+    color: white;
+}
 
-width: 100%;
+footer i{
+    padding: 0 7px;
+}
 
+.left-footer{
+    display: flex;
+    align-items: center;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+}
+
+.song img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.song span{
+    display: block;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.center-footer i{
+    font-size: 1.3em;
+}
+
+.center-footer .fa-circle-play{
+    padding: 0 15px;
+    font-size: 1.5em;
+}
+
+.row{
+    text-align: center;
+}
+
+.row-2{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.row-2 span{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.row-2 hr{
+    width: 390px;
+}
+
+.style-hr{
+    background: #a3a3a3;
+    background: linear-gradient(to right,  #a3a3a3 50%,#5a5a5a 50%);
+    height: 5px;
+}
+
+.right-footer{
+    display: flex;
+    align-items: center;
+}
+
+.right-footer i{
+    color: #c1c1c1;
+}
+
+.right-footer hr{
+    display: inline-block;
+    width: 140px;
 }
 
 
