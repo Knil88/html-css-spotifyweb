@@ -1,0 +1,40 @@
+/* Regole Generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#wrapper{
+    display: flex;
+    height: 100vh;
+    
+   
+}
+
+#lateral-bar{
+min-width: 200px;
+
+/* debug */
+
+background-color: red;
+}
+#up-bar{
+    padding: 18px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100;
+    width: 86%;
+
+}
+
+#main-part{
+    flex-grow: 1;
+    overflow-y: auto;
+    /* debug */
+
+    background-color: blue;
+}
