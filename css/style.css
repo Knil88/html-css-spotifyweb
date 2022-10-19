@@ -72,3 +72,12 @@ width: 100%;
 
 }
 
+
+
+/* Responsive */
+
+@media all and (max-width:1300px and min-width:880px) {
+    #up-bar {
+        padding: 0px 100px;
+    }
+}
