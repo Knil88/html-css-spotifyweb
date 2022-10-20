@@ -244,7 +244,7 @@ footer{
         width: calc(100% - 50px);
     }
     .fix{
-        display: none;
+        height: calc(100% - 30%)
     }
     .left-player img{
         display: none;
@@ -257,4 +257,6 @@ footer{
     #yari{
         display: none;
     }
+    
+   
 }
