@@ -101,8 +101,8 @@ margin-left: 20px;
     
   }
   #middle{
-    margin-bottom: 40px;
-     height: calc(100vh - 379px);
+   
+   height: calc(100% - 269px);
     overflow-y: auto; 
   }
 
