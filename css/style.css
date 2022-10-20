@@ -186,12 +186,29 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #282828;
-    padding: 20px;
+    padding: 0px 10px;
 }
 
+.left-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 15%;
+  }
 
+.left-player img{
+    width: 40px;
+    
+}
 
+.song h6{
+    color:#686868;
+}
 
+.song {
+   
+  }
 
 /* Responsive  smartphone*/
 
