@@ -218,6 +218,24 @@ footer{
     justify-content: space-between;
     width: 20%;
   }
+.player-center{
+    width: 20%;
+    height: 50%;
+}
+
+#play{
+    font-size: 25px;
+}
+
+  #console{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+
+  #console .central{
+    align-self: center;
+  }
 
 /* Responsive  smartphone*/
 
