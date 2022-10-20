@@ -231,7 +231,7 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 15px;
-    margin-right: 16%;
+    margin-right: 58%;
   }
 
   #console .central{
@@ -239,48 +239,89 @@ footer{
     margin: 0px 15px;
   }
 
-  .progress-bar{
-    background-color: #c1c1c1;
-    height: 5px;
-    width: 50%;
-    border-radius:15px ;
-    margin: 6px 129px;
-   
-   
+  .time-bar{
 
-  }
-
-  .progress-bar .progress{
-    width: 15%;
-    border-radius: 15px;
-    height: 5px;
-    background-color:#5a5a5a;
-  }
-
-  .progress{
     display: flex;
-    align-content: center;
-  }
+    align-items: center;
+    
 
-  .progress #dot {
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    background-color: white;
-    align-self: center;
-    justify-self: auto;
-    margin-left: 80%;
-    display: none;
-  }
+}
+.right-player {
+    padding-right: 32px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
 
-   .progress:hover {
-    display: block;
-  }
+}
 
-  .time{
-    margin: 5px;
+.right-player i {
+
+    margin-right: 10px;
+
+}
+
+
+.bar-cont {
+
+    border: 2px #595959 solid;
+    height: 0px;
+    border-radius: 2px;
+    display: flex;
+
+}
+
+.full {
+
+    border: 2px #c2c2c2 solid;
+    width: 30%;
+    height: 0;
+    border-radius: 2px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+
+}
+
+.fa-circle {
+    position: relative;
+    bottom: 6px;
+    left: 5px;
     font-size: 10px;
   }
+
+.circle-voice {
+
+    position: relative;
+    bottom: 5px;
+    left: 16px;
+
+}
+
+.big{
+
+    width: 400px;
+
+} 
+
+.small {
+
+    width: 100px;
+
+    
+}
+
+.time-bar span {
+
+    margin: 0 10px;
+
+}
+
+.time{
+    font-size: 10px;
+}
 /* Responsive  smartphone*/
 
 /* Responsive barra laterale */
