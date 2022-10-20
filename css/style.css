@@ -102,6 +102,8 @@ margin-left: 20px;
   }
   #middle{
     margin-bottom: 40px;
+     height: calc(100vh - 379px);
+    overflow-y: auto; 
   }
 
   #install{
@@ -131,20 +133,18 @@ margin-left: 20px;
     margin: 0px 14px;
     border-bottom: ;
   }
- .fix hr{
-border: 1px solid;
-color: white;
-margin: 10px 80px 10px 18px;
-  
-}
+ 
 .fix{
-
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 84%);
+    justify-content: flex-end;
 }
 
 #utent {
     width: 20px;
     background-color: #6E6E6E;
-    padding: 0px -1px;
+    padding: 0px 1px;
     border-radius: 50%;
   }
   #yari {
@@ -152,6 +152,13 @@ margin: 10px 80px 10px 18px;
     margin-left: 5px;
   }
 
+  #line {
+    border-top: 1px solid white;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    
+  }
 #up-bar{
     padding: 18px 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -180,13 +187,13 @@ margin: 10px 80px 10px 18px;
 
 /* Regole footer */
 footer{
-    height: 90px;
-    width: 100vw;
+    height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #282828;
-    padding: 0px 10px;
+    
 }
 
 .left-player {
@@ -194,7 +201,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
-    width: 15%;
+    width: 16%;
   }
 
 .left-player img{
@@ -206,8 +213,10 @@ footer{
     color:#686868;
 }
 
-.song {
-   
+.left-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
   }
 
 /* Responsive  smartphone*/
@@ -233,5 +242,11 @@ footer{
     }
     #up-bar{
         width: calc(100% - 50px);
+    }
+    .fix{
+        display: none;
+    }
+    .left-player img{
+        display: none;
     }
 }
