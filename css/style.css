@@ -244,11 +244,9 @@ footer{
         width: calc(100% - 50px);
     }
     .fix{
-        height: calc(100% - 30%)
+        height: 70%
     }
-    .left-player img{
-        display: none;
-    }
+   
 
     #install{
         display: none;
@@ -261,5 +259,10 @@ footer{
         border: none;
     }
     
+/* Responsive Smartphone */
+
+    .left-player img{
+        display: none;
+    }
    
 }
