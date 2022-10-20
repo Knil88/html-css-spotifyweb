@@ -219,7 +219,7 @@ footer{
     width: 20%;
   }
 .player-center{
-    width: 20%;
+    width: 60%;
     height: 50%;
 }
 
@@ -229,14 +229,58 @@ footer{
 
   #console{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 15px;
+    margin-right: 16%;
   }
 
   #console .central{
     align-self: center;
+    margin: 0px 15px;
   }
 
+  .progress-bar{
+    background-color: #c1c1c1;
+    height: 5px;
+    width: 50%;
+    border-radius:15px ;
+    margin: 6px 129px;
+   
+   
+
+  }
+
+  .progress-bar .progress{
+    width: 15%;
+    border-radius: 15px;
+    height: 5px;
+    background-color:#5a5a5a;
+  }
+
+  .progress{
+    display: flex;
+    align-content: center;
+  }
+
+  .progress #dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+    justify-self: auto;
+    margin-left: 80%;
+    display: none;
+  }
+
+   .progress:hover {
+    display: block;
+  }
+
+  .time{
+    margin: 5px;
+    font-size: 10px;
+  }
 /* Responsive  smartphone*/
 
 /* Responsive barra laterale */
@@ -277,7 +321,7 @@ footer{
         border: none;
     }
     
-/* Responsive Smartphone */
+/* Responsive player */
 
     .left-player img{
         display: none;
