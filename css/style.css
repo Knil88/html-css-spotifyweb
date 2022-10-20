@@ -257,6 +257,9 @@ footer{
     #yari{
         display: none;
     }
+    #line{
+        border: none;
+    }
     
    
 }
