@@ -249,4 +249,12 @@ footer{
     .left-player img{
         display: none;
     }
+
+    #install{
+        display: none;
+    }
+    
+    #yari{
+        display: none;
+    }
 }
