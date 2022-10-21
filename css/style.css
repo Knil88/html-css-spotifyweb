@@ -464,6 +464,18 @@ footer{
       }
         
 }
+@media screen and ( max-width:1250px){
+    .play-layover{
+        top: 20%;
+    }
+}
+@media screen and ( max-width:1200px){
+    .play-layover{
+        top: 20%;
+        font-size: 55px;
+        left: 30%;
+    }
+}
 @media screen and (max-width:1000px) {
     /* Parte Main */
     .album{
@@ -484,8 +496,22 @@ footer{
        .album{
         width: calc(100%/5 - 18px);
        }
-       
+       .play-layover {
+        top: 17%;
+        
+        left: 26%;
+      }
 }
+
+@media screen and (max-width:850px) {
+    
+    .play-layover {
+        top: 17%;
+        left: 31%;
+        font-size: 45px;
+      }
+}
+
 
 @media screen and (max-width:780px) {
     .big{
@@ -499,4 +525,16 @@ footer{
        .album {
         width: calc(90%/2 - 20px);
       }
+      .play-layover {
+        top: 27%;
+        left: 31%;
+        font-size: 70px;
+      }
 }
+  @media screen and (max-width: 650px){
+    .play-layover {
+        top: 27%;
+        left: 31%;
+        font-size: 56px;
+      }
+  }
