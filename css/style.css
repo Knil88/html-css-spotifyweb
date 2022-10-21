@@ -21,11 +21,7 @@ body{
     height: calc(100vh - 70px);
     overflow-y: auto;
     }
-    section{
-        background-color: red; 
-        width: 400px;
-        height: 400px;
-    }
+   
 #size{
 
 }
@@ -180,9 +176,36 @@ margin-left: 20px;
     
 }
 
+#big-container{
+margin-top: 114px;
+}
 
+#menu{
+    width: 50%;
+    margin: auto;
+}
+ 
+#menu ul {
+    display: flex;
+   
+}
 
+#menu li{
+    margin:0px 9px;
+   
+}
+ a .line-bottom {
+    
+    border: yellow solid 1px;
+    width: 46%;
+    margin: auto;
+    display: none;
+  }
 
+  .line-bottom:hover, li .line-bottom:hover{
+    display: block;
+    
+  }
 
 
 
@@ -329,7 +352,7 @@ footer{
 
 /* Responsive barra laterale */
 
-@media all and (max-width:480px){
+@media all and (max-width:575px){
     #lateral-bar{
         width: 10%;
         
