@@ -32,6 +32,7 @@ body{
     }
 
  /* Regole Barra Laterale */
+
 #lateral-bar{
 width: 200px;
 background-color:#000000;
@@ -89,10 +90,8 @@ margin-left: 20px;
     
   }
   #middle{
-   
-    height: calc(100% - 238px);
-  
-    overflow-y: auto; 
+   height: calc(100% - 238px);
+   overflow-y: auto; 
   }
 
   #install{
@@ -126,7 +125,6 @@ margin-left: 20px;
 .fix{
     display: flex;
     flex-direction: column;
- 
     justify-content: flex-end;
 }
 .fix img{
@@ -191,7 +189,7 @@ font-weight: bold;
 #main-part{
     flex-grow: 1;
     overflow-y: auto;
-  width: calc(100% - 200px);
+     width: calc(100% - 200px);
     background-color:#141922;
     
     
@@ -205,8 +203,10 @@ margin-top: 114px;
 #menu ul {
     display: flex;
     justify-content: center;
+
+    /* Wrap permette agli elementi li di andare a capo in modo responsive quando stringiamo il broswer */
+    
     flex-wrap: wrap;
-   
 }
 
 #menu li{
@@ -233,10 +233,8 @@ margin-top: 114px;
     width: calc(100%/6 - 20px);
     margin: 10px;
     position: relative;
-    flex-wrap: wrap;
-   
-   
- }
+}
+
 .album img {
     width: 100%;
 }
