@@ -49,7 +49,11 @@ background-color:#000000;
     
 }
  
- 
+#home{
+    border-left: yellow solid 2px;
+    
+} 
+
 ul , #install{
     font-size: 12px;
 }
