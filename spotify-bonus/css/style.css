@@ -171,12 +171,19 @@ margin-left: 20px;
 .btn a {
     text-decoration: none;
     color: white;
+    transition: all 0.5s;
     
 }
 
 .btn:hover {
     transform: scale(1.1);
     cursor: pointer;
+    background-color: lightblue;
+    
+}
+
+.btn a:hover{
+    color: #000000;
 }
 
 .btn{
@@ -185,6 +192,7 @@ background-color: black;
 padding: 10px 22px;
 border-radius: 20px;
 font-weight: bold;
+transition: 0.5s ease-in-out;
 
 }
 
@@ -215,18 +223,28 @@ margin-top: 114px;
 
 #menu li{
     padding: 10px 25px;
+    transition: ease 1s;
   }
 
  
 
   #menu li:hover{
-    color: #6e6e6e;
+    background-color: red;
   }
-  .line-bottom hr {
+  .line-bottom  {
     border: yellow solid 1px;
     width: 40%;
     margin: auto;
+    opacity: 0;
+    transition: 1s;
   }
+
+  li:hover .line-bottom{
+   opacity: 5;
+   transform: scale(1.5);
+  }
+
+  
   
   /* Regole Album */
   .row{
@@ -242,6 +260,9 @@ margin-top: 114px;
 .album img {
     width: 100%;
 }
+.layover{
+    transition: ease-in-out 0.5s;
+}
 
 .layover:hover{
     opacity: 0.1;
@@ -253,11 +274,14 @@ margin-top: 114px;
     font-size: 70px;
     top: 25%;
     left: 26%;
+    transition: ease-in-out 0.5s;
     display: none;
+
 }
 
- .album:hover .play-layover ,.for-you:hover .play-layover{
+ .album:hover .play-layover {
     display: block;
+    transform: scale(1.0);
     }
 
 section h6 {
@@ -492,17 +516,28 @@ footer{
    
 }
 
+@media screen and ( max-width:350px){
+    .big{
+       width: 80px
+        
+    }
+    .small {
+        width: 25px;
+      }
+        
+}
+
 /* break-point*/
 
 
 /* parte player */
 @media screen and ( min-width:1000px){
     .big{
-       max-width: 400px
+       width: 400px
         
     }
     .small {
-        max-width: 100px;
+        width: 100px;
       }
         
 }
@@ -522,7 +557,11 @@ footer{
 @media screen and (max-width:1000px) {
     
     .album{
-        width: calc(100%/5 - 18px);
+        width: calc(100%/4 - 20px);
+       }
+       .none{
+        display: none;
+
        }
 }
 
@@ -535,9 +574,9 @@ footer{
          max-width: 80px;
        }
 
-       /* Parte Main */
+       
        .album{
-        width: calc(100%/5 - 18px);
+        width: calc(100%/4 - 20px);
        }
        .play-layover {
         top: 17%;
@@ -568,6 +607,9 @@ footer{
        .album {
         width: calc(90%/2 - 20px);
       }
+      .none-780{
+        display: none;
+      }
       .play-layover {
         top: 27%;
         left: 31%;
@@ -580,4 +622,9 @@ footer{
         left: 31%;
         font-size: 56px;
       }
+  }
+  @media screen and (max-width: 480px){
+    .none-480{
+        display: none;
+    }
   }
