@@ -15,13 +15,18 @@ body{
 .white{
     color: white;
 }
+.center{
+    text-align: center;
+}
 
 #wrapper{
     display: flex;
     height: calc(100vh - 70px);
     overflow-y: auto;
     }
-   
+    section{
+       margin:3%;
+    }
 #size{
 
 }
@@ -60,7 +65,7 @@ background-color:#000000;
 ul , #install{
     font-size: 12px;
 }
-ul a ,ul li , #install{
+ul a ,ul li , #install , .album h6 , section h6{
     color: #6E6E6E;
 }
 li{
@@ -68,7 +73,7 @@ li{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    margin-top: 8px;
+    margin-top:6px;
 }
 li>img{
     cursor: pointer;
@@ -98,8 +103,8 @@ margin-left: 20px;
   }
   #middle{
    
-    height: calc(100% - 426px);
-   margin-bottom: 59px;
+    height: calc(100% - 238px);
+  
     overflow-y: auto; 
   }
 
@@ -134,7 +139,7 @@ margin-left: 20px;
 .fix{
     display: flex;
     flex-direction: column;
-    height: calc(100% - 84%);
+ 
     justify-content: flex-end;
 }
 
@@ -170,7 +175,7 @@ margin-left: 20px;
 #main-part{
     flex-grow: 1;
     overflow-y: auto;
-    height: 100%;
+  width: calc(100% - 200px);
     background-color:#141922;
     
     
@@ -181,8 +186,9 @@ margin-top: 114px;
 }
 
 #menu{
-    width: 50%;
+    width: 70%;
     margin: auto;
+    height: 21px;
 }
  
 #menu ul {
@@ -191,23 +197,66 @@ margin-top: 114px;
 }
 
 #menu li{
-    margin:0px 9px;
-   
-}
- a .line-bottom {
-    
-    border: yellow solid 1px;
-    width: 46%;
+    margin: 0px 25px;
+  }
+
+  a .line-bottom {
+    border: 1px solid yellow;
+    width: 30px;
     margin: auto;
     display: none;
   }
 
-  .line-bottom:hover, li .line-bottom:hover{
+  #menu li:hover{
+    color: #6e6e6e;
+  }
+  a:hover .line-bottom{
+    display: block;
+  }
+  
+  .row{
+    display: flex;
+  }
+ .album{
+    width: calc(100%/6 - 20px);
+    margin: 10px;
+    position: relative;
+   
+   
+ }
+.album img {
+    width: 100%;
+}
+
+.layover:hover{
+    opacity: 0.1;
+    cursor: pointer;
+ 
+   
+   
+}
+.play-layover{
+    position: absolute;
+    font-size: 70px;
+    top: 25%;
+    left: 26%;
+    display: none;
+}
+ .album:hover .play-layover ,.for-you:hover .play-layover{
     display: block;
     
-  }
+}
 
+section h6 {
+    margin: 10px 0px;
+}
+.for-you img{
+    width: 50%;
+}
 
+.radius img{
+    border-radius: 50%;
+}
 
 /* Regole footer */
 footer{
@@ -234,7 +283,7 @@ footer{
     
 }
 
-.song h6{
+.song h6 {
     color:#686868;
 }
 
