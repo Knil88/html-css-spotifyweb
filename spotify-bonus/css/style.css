@@ -258,13 +258,7 @@ margin-top: 114px;
     
 }
 
-.layover img{
-    transition:ease-in-out 1s;
-}
 
-.layover:hover img{
-    border-radius: 50%;
-}
 
 .album img {
     width: 100%;
