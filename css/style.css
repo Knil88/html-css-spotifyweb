@@ -378,6 +378,7 @@ footer{
     bottom: 6px;
     left: 5px;
     font-size: 10px;
+    display: none;
   }
 
 .circle-voice {
@@ -385,6 +386,7 @@ footer{
     position: relative;
     bottom: 5px;
     left: 16px;
+    display: none;
 
 }
 
@@ -393,12 +395,25 @@ footer{
   width: 400px;
 
 } 
-
+  .big:hover .fa-circle {
+    display: block;
+}
+.big:hover .full{
+  border: lime 2px solid;
+}
 .small {
 
     width: 100px;
 
     
+}
+
+.small:hover .fa-circle{
+    display: block;
+}
+
+.small:hover .full{
+    border: lime 2px solid;
 }
 
 .time-bar span {
