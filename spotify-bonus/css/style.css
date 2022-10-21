@@ -255,6 +255,15 @@ margin-top: 114px;
     width: calc(100%/6 - 20px);
     margin: 10px;
     position: relative;
+    
+}
+
+.layover img{
+    transition:ease-in-out 1s;
+}
+
+.layover:hover img{
+    border-radius: 50%;
 }
 
 .album img {
