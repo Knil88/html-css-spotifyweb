@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Metadati -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+<body>
+    
+<!-- Wrapper e nav laterale -->
+
+<div id="wrapper">
+    <nav id="lateral-bar">
+        <img id="logo" src="img/logo.svg" alt="spotify-logo">
+        <img id="logo-responsive" src="img/logo-small.svg" alt="Logo small">
+            <ul class="option">
+                <li id="home" ><img src="img/home.svg" alt="Homepage">
+                    <a href="#" ><strong>
+                        Home
+                    </strong></a>
+                    
+                </li>
+                <li>
+                    <img src="img/search.svg" alt="Search">
+                    <a href="#"><strong>
+                        Cerca
+                    </strong></a>
+                </li>
+                <li>
+                    <img src="img/libreria.svg" alt="Library">
+                    <a href="#"><strong>
+                        La tua libreria
+                    </strong></a>
+                </li>
+            </ul>
+            <ul class="option-responsive">
+                <li><img src="img/home.svg" alt="Homepage">
+                   
+                </li>
+                <li>
+                    <img src="img/search.svg" alt="Search">
+                    
+                </li>
+                <li>
+                    <img src="img/libreria.svg" alt="Library">
+                    
+                </li>
+            </ul>
+
+            <!-- My playlist -->
+
+            <div class="option " id="middle">
+                <ul>
+                    <li>
+                      <h5 class="white">
+                         PLAYLIST
+                      </h5>
+                    </li>
+                    <li>
+                        <button  id="plus">
+                            +
+                        </button>
+                        <h5>
+                            CREA PLAYLIST
+                        </h5>
+                    </li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                    <li><strong>
+                        Nome Playlist
+                    </strong></li>
+                </ul>
+            </div>
+
+            <!-- Utente -->
+
+            <div class=" fix">
+               <div>
+                    <img class="white " id="size"  src="img/download.svg" alt="">
+                    <strong id="install">
+                        Installa L'App
+                    </strong>
+                </div>
+               
+                <div id="line">
+                    <img id="utent" src="img/profile.svg" alt="utente">
+                    <h6 class="white " id="yari">
+                        YARI NARDUCCI
+                    </h6>
+                </div>
+             </div>
+             
+    </nav>
+    
+<!-- Parte Principale e nav superiore -->
+
+    <main id="main-part">
+        <nav id="up-bar">
+            <button class="btn">
+               <a href="#">
+                EFFETTUA L'UPGRADE
+               </a>
+            </button>
+        </nav>
+      <div id="big-container">
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="#">
+                       <strong>
+                       IN EVIDENZA
+                       </strong>
+                       <div class="line-bottom">
+                        <hr>
+                       </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <strong>
+                        PODCAST
+                       </strong>
+                       <div class="line-bottom">
+                       </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <strong>
+                       CLASSIFICHE
+                       </strong>
+                       <div class="line-bottom">
+                       </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <strong>
+                       GENERI E MOOD
+                       </strong>
+                       <div class="line-bottom">
+                       </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <strong>
+                        NUOVE USCITE
+                       </strong>
+                       <div class="line-bottom">
+                       </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <strong>
+                        SCOPRI
+                       </strong>
+                       <div class="line-bottom">
+                       </div>
+                    </a>
+                </li>
+            </ul>
+           </nav>
+
+           <!-- Ascoltati di Recente -->
+
+           <section>
+            <h3 class="white">
+                Recently Played
+            </h3>
+            <div class="row">
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/metal_lifting.jpg" alt="heavymetal">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            Heavy metal
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/stranger.jpeg" alt="Stranger ost">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            Stranger things-Ost
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/aquietplace.jpeg" alt="A Quiet Place">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            A Quiet Place
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/split.jpeg" alt="split">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                           Split
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/cure.jpeg" alt="Cure">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            A cure for Wellness
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover">
+                       <img src="img/sinister.jpeg" alt="sinister">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            Sinister
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+           <!-- Scelti per te -->
+
+           <section>
+                <h3 class="white">
+                    Scelti per Yari
+                </h3>
+                <h6>
+                    Pi&ugrave; ascolti pi&ugrave; accurati saranno i suggerimenti.
+                </h6>
+                <div class="row">
+                    <div class="album">
+                        <i class="fa-regular fa-circle-play white play-layover" ></i>
+                        <div class="layover">
+                           <img src="img/radar.jpeg" alt="heavymetal">
+                        </div>
+                        <div>
+                            <h5 class="white center">
+                                Radar
+                            </h5>
+                            <h6 class="center">
+                                Subtitle
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="album">
+                        <i class="fa-regular fa-circle-play white play-layover" ></i>
+                        <div class="layover">
+                           <img src="img/mixdaily.jpeg" alt="heavymetal">
+                        </div>
+                        <div>
+                            <h5 class="white center">
+                                Daily Mix
+                            </h5>
+                            <h6 class="center">
+                                Subtitle
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+           </section>
+
+           <!-- Artisti -->
+
+           <section>
+            <h3 class="white">
+                Artisti pi&ugrave popolari
+            </h3>
+            <h6>
+                Pi&ugrave; ascolti pi&ugrave; accurati saranno i suggerimenti.
+            </h6>
+            <div class="row">
+                <div class="album ">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover radius">
+                       <img src="img/youg.jpeg" alt="youg">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            Lana del Rey
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+                <div class="album ">
+                    <i class="fa-regular fa-circle-play white play-layover" ></i>
+                    <div class="layover radius">
+                       <img src="img/einaudi.jpeg" alt="Einaudi">
+                    </div>
+                    <div>
+                        <h5 class="white center">
+                            Einaudi
+                        </h5>
+                        <h6 class="center">
+                            Subtitle
+                        </h6>
+                    </div>
+                </div>
+            </div>
+       </section>
+      </div>
+      
+    </main>
+   
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+    <!-- Parte Left-Player -->
+
+     <div class="left-player">
+        <img src="img/sinister.jpeg" alt="brano">
+        <div class="song">
+            <h5 class="white">Sinister</h5>
+        <h6>brano nome</h6>
+        </div>
+        <div class="icon  left-flex">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-folder"></i>
+         </div>
+     </div> 
+
+     <!-- Player Centrale -->
+
+    <div class="player-center">
+        <div id="console">
+            
+            <i class="fa-solid fa-shuffle white central"></i>
+            <i class="fa-solid fa-backward-step white central"></i>
+            <i class="fa-regular fa-circle-play white" id="play"></i>
+            <i class="fa-solid fa-forward-step white central"></i>
+            <i class="fa-sharp fa-solid fa-rotate-right white central"></i>
+
+        </div>
+
+       <!-- Barra di Riproduzione -->
+
+      <div class="time-bar">
+        <span  class="white time">0:25</span>
+        <div class="bar-cont big">
+            <div class="full"><i class="fa-solid fa-circle"></i></div>
+        </div>
+        <span class="white time">4:30</span>
+        
+       </div>
+    </div>
+
+    <!-- layer di Sinistra -->
+
+    <div class="right-player">
+        <i class="fa-solid fa-bars white"></i>
+        <i class="fa-solid fa-tv white "></i>
+        <i class="fa-solid fa-volume-high white"></i>
+        <div class="bar-cont small">
+            <div class="full"><i class="fa-solid fa-circle circle-voice"></i></div>
+        </div>
+
+    </div> 
+  </footer>
+ </body>
+</html>
