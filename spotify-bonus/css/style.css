@@ -631,3 +631,9 @@ footer{
         display: none;
     }
   }
+
+  @media screen and (max-height:200px){
+        #up-bar{
+            opacity: 0;
+        }
+  }
